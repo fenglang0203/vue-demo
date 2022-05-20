@@ -91,6 +91,7 @@ export default {
       value: "",
       activeParam: "1",
       searchValue: "",
+      // 这里数据写死了，最终根据型号异步获取后从vuex里取
       // 树要单选且只有叶子节点可以选择，参考https://blog.csdn.net/lianzhang861/article/details/91988151 做
       // 树组件 https://element.eleme.cn/#/zh-CN/component/tree
       param1: [
