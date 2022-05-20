@@ -10,7 +10,7 @@
         <result-summary />
       </el-tab-pane>
       <el-tab-pane label="整体相关性" name="second1">
-        <second1-page />
+        <result2 />
       </el-tab-pane>
     </el-tabs>
   </div>
@@ -22,14 +22,12 @@ import resultSummary from './resultSummary.vue';
 import result2 from './result2.vue'
 
 export default {
-  components: { resultSummary },
   name: "AnalysisResult",
-  comments: {
+  components: {
     resultSummary,
     result2
   },
   computed: {
-    ...mapGetters(["name"]),
   },
   data() {
     return {

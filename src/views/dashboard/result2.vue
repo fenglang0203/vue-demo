@@ -1,6 +1,6 @@
 <template>
   <div class="result-container">
-    <div>result1</div>
+    <div>result2</div>
   </div>
 </template>
 
@@ -8,9 +8,8 @@
 import { mapGetters } from "vuex";
 
 export default {
-  name: "First",
+  name: "Result2",
   computed: {
-    ...mapGetters(["name"]),
   },
   data() {
     return {
