@@ -1,6 +1,6 @@
 <template>
   <div class="page-container">
-    <div>first</div>
+    <div>summary</div>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import { mapGetters } from "vuex";
 
 export default {
-  name: "First",
+  name: "resultSummary",
   computed: {
     ...mapGetters(["name"]),
   },
@@ -24,7 +24,7 @@ export default {
 <style lang="scss" scoped>
 .page {
   &-container {
-    padding: 50px 30px 0 30px;
+    padding: 0px 30px 0 30px;
   }
   &-text {
     font-size: 30px;

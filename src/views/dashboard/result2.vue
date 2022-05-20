@@ -1,6 +1,6 @@
 <template>
-  <div class="page-container">
-    <div>first</div>
+  <div class="result-container">
+    <div>result1</div>
   </div>
 </template>
 
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.page {
+.result {
   &-container {
     padding: 50px 30px 0 30px;
   }

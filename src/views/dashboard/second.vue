@@ -18,7 +18,7 @@ export default {
 <style lang="scss" scoped>
 .page {
   &-container {
-    margin: 30px;
+   padding: 50px 30px 0 30px;
   }
   &-text {
     font-size: 30px;
