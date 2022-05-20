@@ -7,7 +7,7 @@
       <el-tab-pane label="跳变检测" name="second">
         <second-page />
       </el-tab-pane>
-      <el-tab-pane label="相关性分析" name="analysis">
+      <el-tab-pane label="相关性分析" name="third">
         <analysis-page />
       </el-tab-pane>
       <el-tab-pane label="神经网络" name="fourth">
@@ -37,7 +37,7 @@ export default {
   },
   data() {
     return {
-      activeName: "analysis",
+      activeName: "first",
     };
   },
   methods: {
@@ -51,7 +51,7 @@ export default {
 <style lang="scss" scoped>
 .dashboard {
   &-container {
-    margin: 10px 20px 0 20px;
+    margin: 30px;
   }
   &-text {
     font-size: 30px;
